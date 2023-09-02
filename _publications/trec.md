@@ -2,7 +2,7 @@
 title: "Brown University at TREC Precision Medicine 2019"
 collection: publications
 permalink: /publications/2019-trec
-date: 2019-06-09
+date: 2019-01-01
 venue: 'Text REtrieval Conference'
 paperurl: '/files/pdf/research/BayesPostEst.pdf'
 link: 'https://doi.org/10.21105/joss.01722'

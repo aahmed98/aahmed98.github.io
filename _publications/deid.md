@@ -2,7 +2,7 @@
 title: "Benchmarking Modern Named Entity Recognition Techniques for Free-text Health Record Deidentification"
 collection: publications
 permalink: /publications/2021-deid
-date: 2021-99-99
+date: 2021-01-01
 venue: 'American Medical Informatics Association (AMIA)'
 paperurl: '/files/pdf/research/BayesPostEst.pdf'
 link: 'https://doi.org/10.21105/joss.01722'

@@ -2,7 +2,7 @@
 title: "COVID-19 mortality prediction in the intensive care unit with deep learning based on longitudinal chest X-rays and clinical data"
 collection: publications
 permalink: /publications/2022-covid
-date: 2022-99-99
+date: 2022-01-01
 venue: 'European Radiology'
 paperurl: '/files/pdf/research/BayesPostEst.pdf'
 link: 'https://doi.org/10.21105/joss.01722'
