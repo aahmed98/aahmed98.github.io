@@ -7,6 +7,7 @@
 
   @include breakpoint($medium) {
     @include span(12 of 12);
+    padding-right: 200px;
   }
 
   @include breakpoint($large) {
@@ -79,9 +80,9 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
-    text-decoration: underline;
-  }
+  // .archive__item-title {
+  //   text-decoration: underline;
+  // }
 }
 
 
