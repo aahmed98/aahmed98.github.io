@@ -1,0 +1,11 @@
+---
+name: Mass General Brigham
+logo: /images/curai.png
+role: Research Assistant
+startDate: Jun 2021
+endDate: Aug 2021
+location: Boston, MA
+highlights:
+    - Trained novel medical image segmentation models using PyTorch to isolate kidneys and ureters on CT scans and grade lumbar stenosis on MRI scans.
+    - Presented findings to stakeholders from GE Healthcare and MGH and packaged models into deployable microservices using Docker.
+---
