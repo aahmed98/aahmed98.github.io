@@ -3,17 +3,17 @@
 <div style="margin-bottom: 40px;">
     <div style="display: flex; align-items: flex-start;">
         <div>
-            <img src="/images/yosemite.jpg" alt="{{ job.name }} logo"
-                style="border-radius: 50%; width: 75px; height:75px; margin-right: 20px;">
+            <img src="{{ job.logo }}" alt="{{ job.name }} logo"
+                style="border-radius: 50%; width: 50px; height:50px; margin-right: 20px;">
         </div>
         <div style="flex-grow: 1; align-self: flex-start;">
             <h2 style="margin: 0;">{{ job.name }}</h2>
-            <p><strong>{{ job.role }}</strong></p>
+            <p style="margin: 8px 0 0 0;">
+                <strong>{{ job.role }}</strong></p>
         </div>
         <div style="text-align: right;">
             <p style="margin: 0">{{ job.location }} </p>
-            <p>{{ job.startDate }} - {{ job.endDate }} </p>
-        </div>
+            <p style="margin: 0">{{ job.startDate }} - {{ job.endDate }}</p></div>
     </div>
     <ul>
         {% for highlight in job.highlights %}
