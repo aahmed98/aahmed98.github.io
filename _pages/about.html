@@ -21,6 +21,21 @@ redirect_from:
     margin-top: 50px;
   }
 
+  .card-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+  .card-header img {
+      /* Add a briefcase icon image in your resources */
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+  }
+
   .job-entry {
     display: flex;
     align-items: center;
@@ -78,13 +93,18 @@ redirect_from:
 <body>
 
 <div class="resume-card">
+  <div class="card-header">
+    <img src="/images/briefcase-icon.png" alt="Work" />
+    <div class="work-title">Work</div>
+  </div>
+
   <div class="job-entry">
     <img src="/images/google.png" alt="Google Logo" class="company-logo" width="30" height="30">
     <div class="job-info">
       <span class="job-company">Google</span>
-      <span class="job-title">SWE Intern</span>
+      <span class="job-title">PM Intern</span>
     </div>
-    <span class="dates">June — Sep 2022</span>
+    <span class="dates">Sep 22 — Mar 23</span>
   </div>
   
   <div class="job-entry">
@@ -93,20 +113,20 @@ redirect_from:
       <span class="job-company">Google</span>
       <span class="job-title">SWE Intern</span>
     </div>
-    <span class="dates">May — Aug 2022</span>
+    <span class="dates">May 22 — Sep 22</span>
   </div>
 
   <div class="job-entry">
-    <img src="/images/google.png" alt="Google Logo" class="company-logo" width="30" height="30">
+    <img src="/images/curai.png" alt="Google Logo" class="company-logo" width="30" height="30">
     <div class="job-info">
-      <span class="job-company">Google</span>
-      <span class="job-title">SWE Intern</span>
+      <span class="job-company">Curai Health</span>
+      <span class="job-title">MLE Intern</span>
     </div>
-    <span class="dates">May — Aug 2021</span>
+    <span class="dates">Aug 21 — Dec 21</span>
   </div>
 
   <a href="/work" class="view-resume">
-    View Resume
+    View Work
     <span class="arrow">→</span>
   </a>
 </div>
