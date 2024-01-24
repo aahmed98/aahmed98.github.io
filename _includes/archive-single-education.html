@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<div style="margin-bottom: 40px;">
+<div style="margin-top: 40px;">
     <div style="display: flex; align-items: flex-start;">
         <div>
             <img src="{{ school.logo }}" alt="{{ school.name }} logo"
@@ -16,9 +16,15 @@
             <p style="margin: 0">{{ school.location }} </p>
             <p style="margin: 0">{{ school.startDate }} - {{ school.endDate }}</p></div>
     </div>
-    <ul>
+    <ul style="font-size: initial;">
         {% if school.honors %}
             <li>Honors: {{school.honors}}</li>
+        {% endif %}
+        {% if school.thesis %}
+            <li>Thesis: {{school.thesis}}</li>
+        {% endif %}
+        {% if school.courses %}
+            <li>Coursework: {{school.courses}}</li>
         {% endif %}
     </ul>
 </div>
