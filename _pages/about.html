@@ -20,14 +20,17 @@ redirect_from:
     .card-holder {
       display: flex;
       flex-wrap: wrap;
+      gap: 20px;
     }
 
     .resume-card {
+      display: flex;
+      flex-direction: column;
       background-color: white;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 20px;
-      width: 90%;
+      width: 365px;
       margin-top: 50px;
     }
 
@@ -40,7 +43,6 @@ redirect_from:
     }
 
     .card-header img {
-      /* Add a briefcase icon image in your resources */
       width: 24px;
       height: 24px;
       margin-right: 12px;
@@ -49,13 +51,13 @@ redirect_from:
     .job-entry {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       margin-bottom: 20px;
     }
 
     .company-logo {
       border-radius: 50%;
-      margin-right: 20px;
+      margin-right: 30px;
     }
 
     .job-info {
@@ -74,18 +76,18 @@ redirect_from:
     }
 
     .dates {
+      align-self: flex-start;
       font-size: 14px;
       color: #555;
     }
 
     .view-resume {
-      display: block;
+      margin-top: auto;
       text-align: center;
-      margin-top: 20px;
       padding: 10px;
       background-color: #f2f2f2;
       color: #000;
-      border-radius: 4px;
+      border-radius: 8px;
       transition: background-color 0.3s;
       text-decoration: none !important;
     }
@@ -123,7 +125,7 @@ redirect_from:
           <span class="job-company">Google</span>
           <span class="job-title">PM Intern</span>
         </div>
-        <span class="dates">Sep 22 — Mar 23</span>
+        <span class="dates">Sep '22 — Mar '23</span>
       </div>
 
       <div class="job-entry">
@@ -132,7 +134,7 @@ redirect_from:
           <span class="job-company">Google</span>
           <span class="job-title">SWE Intern</span>
         </div>
-        <span class="dates">May 22 — Sep 22</span>
+        <span class="dates">May '22 — Sep '22</span>
       </div>
 
       <div class="job-entry">
@@ -141,12 +143,50 @@ redirect_from:
           <span class="job-company">Curai Health</span>
           <span class="job-title">MLE Intern</span>
         </div>
-        <span class="dates">Aug 21 — Dec 21</span>
+        <span class="dates">Aug '21 — Dec '21</span>
       </div>
 
       <a href="/work" class="view-resume">
         View Work
-        <span class="arrow">→</span>
+        <!-- <span class="arrow">→</span> -->
+      </a>
+    </div>
+
+    <div class="resume-card">
+      <div class="card-header">
+        <img src="/images/gradcap.png" alt="Education" />
+        <div class="work-title">Education</div>
+      </div>
+
+      <div class="job-entry">
+        <img src="/images/brown.jpg" alt="Brown Logo" class="company-logo" width="30" height="30">
+        <div class="job-info">
+          <span class="job-company">Brown Medical School</span>
+          <span class="job-title">M.D. Candidate</span>
+        </div>
+        <span class="dates">2020 —</span>
+      </div>
+
+      <div class="job-entry">
+        <img src="/images/brown.jpg" alt="Google Logo" class="company-logo" width="30" height="30">
+        <div class="job-info">
+          <span class="job-company">Brown University</span>
+          <span class="job-title">APMA-Biology (B.Sc)</span>
+        </div>
+        <span class="dates">2016 — 2020</span>
+      </div>
+
+      <div class="job-entry">
+        <img src="/images/brown.jpg" alt="Google Logo" class="company-logo" width="30" height="30">
+        <div class="job-info">
+          <span class="job-company">Brown University</span>
+          <span class="job-title">Computer Science (B.A)</span>
+        </div>
+        <span class="dates">2016 — 2020</span>
+      </div>
+
+      <a href="/education" class="view-resume">
+        View Education
       </a>
     </div>
 
