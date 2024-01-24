@@ -3,135 +3,155 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+- /about/
+- /about.html
 ---
 
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-  .resume-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 400px;
-    margin-top: 50px;
-  }
 
-  .card-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        font-size: 16px;
-        font-weight: bold;
+<head>
+  <style>
+    .intro {
+      width: 100%;
     }
 
-  .card-header img {
+    .card-holder {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .resume-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 90%;
+      margin-top: 50px;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .card-header img {
       /* Add a briefcase icon image in your resources */
       width: 24px;
       height: 24px;
       margin-right: 12px;
-  }
+    }
 
-  .job-entry {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
+    .job-entry {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
 
-  .company-logo {
-    border-radius: 50%;
-    margin-right: 20px;
-  }
+    .company-logo {
+      border-radius: 50%;
+      margin-right: 20px;
+    }
 
-  .job-info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
+    .job-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
 
-  .job-company {
-    font-size: 16px;
-  }
+    .job-company {
+      font-size: 16px;
+    }
 
-  .job-title {
-    font-size: 16px;
-    font-weight: bold;
-  }
+    .job-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
 
-  .dates {
-    font-size: 14px;
-    color: #555;
-  }
+    .dates {
+      font-size: 14px;
+      color: #555;
+    }
 
-  .view-resume {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f2f2f2;
-    color: #000;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-    text-decoration: none !important;
-  }
+    .view-resume {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      color: #000;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      text-decoration: none !important;
+    }
 
-  .view-resume:hover {
-    background-color: #e2e2e2;
-  }
+    .view-resume:hover {
+      background-color: #e2e2e2;
+    }
 
-  .arrow {
-    display: inline-block;
-    margin-left: 5px;
-  }
-</style>
+    .arrow {
+      display: inline-block;
+      margin-left: 5px;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="resume-card">
-  <div class="card-header">
-    <img src="/images/briefcase-icon.png" alt="Work" />
-    <div class="work-title">Work</div>
+  <div class="intro">
+    Welcome! I'm Abdullah, from Kuwait, now in my third year of medical school at Brown University. I also
+    attended Brown for college, where I majored in Applied Math-Biology and Computer Science. I've had the privledge to
+    work at the intersection of technology and healthcare, most recently at Google Health. Most of my work and research
+    experience has focused on applications of AI to medicine, be it diagnostics, summarization, or de-identification.
   </div>
 
-  <div class="job-entry">
-    <img src="/images/google.png" alt="Google Logo" class="company-logo" width="30" height="30">
-    <div class="job-info">
-      <span class="job-company">Google</span>
-      <span class="job-title">PM Intern</span>
-    </div>
-    <span class="dates">Sep 22 — Mar 23</span>
-  </div>
-  
-  <div class="job-entry">
-    <img src="/images/google.png" alt="Google Logo" class="company-logo" width="30" height="30">
-    <div class="job-info">
-      <span class="job-company">Google</span>
-      <span class="job-title">SWE Intern</span>
-    </div>
-    <span class="dates">May 22 — Sep 22</span>
-  </div>
+  <div class="card-holder">
+    <div class="resume-card">
+      <div class="card-header">
+        <img src="/images/briefcase-icon.png" alt="Work" />
+        <div class="work-title">Work</div>
+      </div>
 
-  <div class="job-entry">
-    <img src="/images/curai.png" alt="Google Logo" class="company-logo" width="30" height="30">
-    <div class="job-info">
-      <span class="job-company">Curai Health</span>
-      <span class="job-title">MLE Intern</span>
-    </div>
-    <span class="dates">Aug 21 — Dec 21</span>
-  </div>
+      <div class="job-entry">
+        <img src="/images/google.png" alt="Google Logo" class="company-logo" width="30" height="30">
+        <div class="job-info">
+          <span class="job-company">Google</span>
+          <span class="job-title">PM Intern</span>
+        </div>
+        <span class="dates">Sep 22 — Mar 23</span>
+      </div>
 
-  <a href="/work" class="view-resume">
-    View Work
-    <span class="arrow">→</span>
-  </a>
-</div>
+      <div class="job-entry">
+        <img src="/images/google.png" alt="Google Logo" class="company-logo" width="30" height="30">
+        <div class="job-info">
+          <span class="job-company">Google</span>
+          <span class="job-title">SWE Intern</span>
+        </div>
+        <span class="dates">May 22 — Sep 22</span>
+      </div>
+
+      <div class="job-entry">
+        <img src="/images/curai.png" alt="Google Logo" class="company-logo" width="30" height="30">
+        <div class="job-info">
+          <span class="job-company">Curai Health</span>
+          <span class="job-title">MLE Intern</span>
+        </div>
+        <span class="dates">Aug 21 — Dec 21</span>
+      </div>
+
+      <a href="/work" class="view-resume">
+        View Work
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+  </div>
 
 </body>
+
 </html>
-
-
