@@ -8,7 +8,7 @@ author_profile: true
 {% assign author = site.author %}
 
 {% if author.linkedin %}
-  You can also find my work experience on <a href="{{author.linkedin}}">my LinkedIn</a>.
+  You can find my up-to-date work experience on my <a href="{{author.linkedin}}">LinkedIn</a>.
 {% endif %}
 
 {% include base_path %}
